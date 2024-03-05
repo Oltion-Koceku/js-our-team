@@ -1,3 +1,4 @@
+const output = document.querySelector(".output")
 const teams = [
   {
     nome: "Wayne Burnet",
@@ -30,3 +31,8 @@ const teams = [
     img: "barbara-ramos-graphic-designer.jpg"
   }
 ]
+
+for (let team of teams) {
+  console.log(team);
+  
+}
