@@ -36,7 +36,7 @@ for (let team of teams) {
   console.log(team);
 
   output.innerHTML += `
-  <div class="card" style="width: 18rem;">
+  <div class="card card-ol" style="width: 18rem;">
     <img src="assets/img/img/${team.img}" class="card-img-top" alt="${team.nome}">
     <div class="card-body">
       <h5 class="card-title">${team.nome}</h5>
